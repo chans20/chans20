@@ -9,7 +9,7 @@
 
 - 🌱 Java와 Spring Boot를 기반으로 서버 개발을 공부하고 있습니다
 - 💬 읽기 쉬운 코드, 유지보수하기 좋은 구조에 관심이 많습니다
-- 🤝 팀원과의 소통을 중요하게 생각하며, 피드백을 적극적으로 수용합니다
+- 🔍 문제를 만나면 먼저 스스로 찾아보는 편입니다. 다만 혼자 해결하는 데 그치지 않고, 내가 찾은 방향이 팀이 원하는 것과 맞는지 적극적으로 소통하며 맞춰갑니다
 - 📫 Contact: changul20141461@gmail.com
 
 <br>
@@ -19,7 +19,8 @@
 ### Language & Framework
 ![Java](https://img.shields.io/badge/Java-007396?style=flat-square&logo=java&logoColor=white)
 ![Spring Boot](https://img.shields.io/badge/Spring_Boot-6DB33F?style=flat-square&logo=springboot&logoColor=white)
-
+![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
+![C](https://img.shields.io/badge/C-A8B9CC?style=flat-square&logo=c&logoColor=white)
 ### Database
 ![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=flat-square&logo=mysql&logoColor=white)
 
@@ -35,6 +36,8 @@
 |------|------|------|
 | Java | ⭐⭐⭐ | 객체지향 프로그래밍 원칙을 이해하고 기본 문법을 활용할 수 있습니다 |
 | Spring Boot | ⭐⭐ | RESTful API를 설계하고 구현한 경험이 있습니다 |
+| Python | ⭐⭐ | 알고리즘 문제 풀이에 활용한 경험이 있습니다 |
+| C | ⭐⭐ | 자료구조 과제를 통해 메모리 관리와 포인터 개념을 학습했습니다 |
 | MySQL | ⭐⭐ | 데이터베이스 설계 및 CRUD 쿼리 작성이 가능합니다 |
 | Git | ⭐⭐ | 브랜치 전략을 이해하고 협업 프로젝트에서 활용했습니다 |
 
