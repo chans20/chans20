@@ -42,12 +42,12 @@
 
 ## 📊 GitHub Stats
 
-![GitHub stats](https://github-readme-stats.vercel.app/api?username=your-github-username&show_icons=true&theme=default)
+![GitHub stats](https://github-readme-stats.vercel.app/api?username=chans20&show_icons=true&theme=default)
 
 <br>
 
 ## 🔗 Links
 
-- 📁 GitHub: GitHub: github.com/chans20
+- 📁 GitHub: github.com/chans20
 - ✍️ Blog: (작성 예정)
 
