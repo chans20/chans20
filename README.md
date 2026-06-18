@@ -46,8 +46,37 @@
 
 <br>
 
+## 📁 Projects
+
+### 🏠 자취방 정보공유 플랫폼
+> DB 수업 팀 프로젝트 | DB 설계 담당
+
+자취생들이 거주 경험을 공유하고 방 정보를 탐색할 수 있는 커뮤니티 플랫폼
+
+**기술 스택**
+
+![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=flat-square&logo=mysql&logoColor=white)
+
+**주요 기능**
+- 게시글 등록, 리뷰 작성, 좋아요, 거주 인증, 문의/답변, 주변 편의시설 정보 제공
+
+**역할 및 기여**
+- 회원, 자취방, 리뷰, 좋아요, 거주 인증, 문의/답변 등 전체 ERD 및 테이블 구조 설계
+- 팀원들과 기능 요구사항을 직접 질의응답하며 설계에 반영
+- 교수님 피드백을 바탕으로 ERD 구조 개선
+
+**문제 해결 과정**
+- 좋아요 기능 설계 시 중복 방지와 취소 기능을 고려해 `Like_Residence(user_id, residence_id, liked_at)` 중간 테이블로 구조화
+- 리뷰는 거주 인증된 사용자만 작성 가능하다는 규칙을 `Tenancy_Certification` 관계형 엔터티로 표현
+- 답변 작성 권한을 `user_type` 컬럼으로 구분해 집주인/공인중개사만 답변 가능하도록 설계
+
+<br>
+
 ## 🔗 Links
 
-- 📁 GitHub: github.com/chans20
+- 📁 GitHub: [github.com/chans20](https://github.com/chans20)
 - ✍️ Blog: (작성 예정)
 
+---
+
+> "기술은 변해도 문제를 해결하는 사람은 남습니다."
