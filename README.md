@@ -48,9 +48,6 @@
 
 ## 🔗 Links
 
-- 📁 GitHub: [github.com/your-username](https://github.com/your-username)
+- 📁 GitHub: GitHub: github.com/chans20
 - ✍️ Blog: (작성 예정)
 
----
-
-> "천천히 가더라도 올바른 방향으로 꾸준히"
