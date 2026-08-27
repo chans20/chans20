@@ -1,15 +1,15 @@
-# 안녕하세요, 백엔드 개발 경험을 쌓고 있는 김찬결입니다 👋
+# 안녕하세요, 백엔드 개발 경험을 바탕으로 클라우드 엔지니어를 준비하고 있는 김찬결입니다 👋
 
-Java와 Spring Boot를 기반으로 서비스를 개발하며,
-문제의 원인을 파악하고 데이터 정합성과 안정성을 개선하는 과정에 관심이 있습니다.
+Java와 Spring Boot 기반의 서비스 개발 경험을 쌓으며,  
+애플리케이션이 클라우드 환경에서 안정적으로 동작하기 위한 인프라와 운영 구조에 관심을 넓혀가고 있습니다.
 
 <br>
 
 ## 🙋 About Me
 
-- 🌱 Java와 Spring Boot 기반의 백엔드 개발 경험을 쌓으며, 안정적인 서비스 구조와 데이터 처리에 관심을 두고 있습니다
-- 💡 기능 구현에 그치지 않고 동시성, 데이터 정합성, 조회 성능, 예외 처리의 원인을 분석하고 개선하는 과정을 중요하게 생각합니다
-- ☁️ 백엔드 개발 경험을 기반으로 네트워크, Linux, AWS를 학습하며 클라우드 영역으로 역량을 확장하고 있습니다
+- 🌱 Java와 Spring Boot 기반 백엔드 프로젝트를 통해 애플리케이션 구조와 데이터 흐름을 경험했습니다
+- 💡 동시성, 데이터 정합성, 조회 성능, 외부 API 장애 처리처럼 서비스 안정성과 연결되는 문제를 분석하고 개선해왔습니다
+- ☁️ 백엔드 개발 경험을 기반으로 Linux, 네트워크, AWS를 학습하며 클라우드 인프라와 운영 영역으로 역량을 확장하고 있습니다
 - 📫 Contact: changul20141461@gmail.com
 
 <br>
@@ -40,23 +40,12 @@ Java와 Spring Boot를 기반으로 서비스를 개발하며,
 ![GitHub](https://img.shields.io/badge/GitHub-181717?style=flat-square&logo=github&logoColor=white)
 ![Swagger](https://img.shields.io/badge/Swagger-85EA2D?style=flat-square&logo=swagger&logoColor=black)
 
-<br>
+### Currently Learning
 
-## 💡 Skills
+![Linux](https://img.shields.io/badge/Linux-FCC624?style=flat-square&logo=linux&logoColor=black)
+![AWS](https://img.shields.io/badge/AWS-232F3E?style=flat-square&logo=amazonaws&logoColor=white)
 
-| 분야 | 경험 |
-|------|------|
-| **Backend** | Java/Spring Boot 기반 REST API와 도메인 비즈니스 로직 구현 |
-| **Database** | JPA·QueryDSL을 활용한 동적 조회, 커서 페이지네이션, Fetch Join 및 일괄 조회 경험 |
-| **Data Integrity** | MySQL UNIQUE·CHECK 제약, Soft Delete, 트랜잭션을 고려한 데이터 정합성 처리 |
-| **API Integration** | 외부 API 연동 및 응답·장애 유형을 서비스 예외로 변환하는 로직 구현 |
-| **Collaboration** | Git Flow 기반 Issue → Branch → PR → Code Review → Merge 협업 경험 |
-
-<br>
-
-## 📊 GitHub Stats
-
-![GitHub stats](https://github-readme-stats.vercel.app/api?username=chans20&show_icons=true&theme=default)
+`Networking` · `Linux` · `AWS` · `Cloud Infrastructure`
 
 <br>
 
@@ -84,12 +73,18 @@ Java와 Spring Boot를 기반으로 서비스를 개발하며,
 - 작성자 Fetch Join과 페이지 단위 연관 데이터 일괄 조회를 적용해 N+1 조회 방지
 
 **문제 해결 과정**
-- 좋아요 등록의 `SELECT → INSERT` 경쟁 조건을 DB의 `UNIQUE` 제약과 `INSERT IGNORE`로 개선하고, API도 상태 설정의 의미에 맞게 `POST → PUT`으로 변경. 동일 사용자·장소에 10건의 동시 요청을 보내 중복 생성 방지 검증
+- 좋아요 등록의 `SELECT → INSERT` 경쟁 조건을 DB의 `UNIQUE` 제약과 `INSERT IGNORE`로 개선하고, API도 상태 설정의 의미에 맞게 `POST → PUT`으로 변경
+- 동일 사용자·장소에 좋아요 요청을 10건 동시에 전송하여 중복 데이터가 생성되지 않고 좋아요 수가 1로 유지되는 것을 검증
 - 국세청 `/validate` 실패 시에만 `/status`를 추가 조회해 미등록·영업 상태 문제와 입력 정보 불일치를 구분하고, 국세청 통신 장애는 별도 `503` 오류로 처리
-- `place_id` UNIQUE 제약과 Soft Delete 정책을 함께 고려해 동일 장소 재등록 시 기존 행을 재활성화하고, 홍보 콘텐츠와 장소 데이터의 불일치를 막기 위해 등록 이후 Place 변경을 제한
+- `place_id` UNIQUE 제약과 Soft Delete 정책을 함께 고려해 동일 장소 재등록 시 기존 홍보글을 재활성화
+- 홍보 콘텐츠와 장소 데이터의 불일치를 방지하기 위해 등록 이후 Place 변경을 제한
 
-**GitHub**
+**관련 링크**
 - [Backend Repository](https://github.com/yeogido/backend)
+- [PR #297 - 장소 좋아요 멱등성 및 동시 요청 처리](https://github.com/yeogido/backend/pull/297)
+- [PR #146 - 국세청 사업자 인증 구현](https://github.com/yeogido/backend/pull/146)
+- [PR #91 - QueryDSL 커서 페이지네이션 구현](https://github.com/yeogido/backend/pull/91)
+- [PR #302 - 홍보글 사업장 변경 차단](https://github.com/yeogido/backend/pull/302)
 
 <br>
 
@@ -117,7 +112,24 @@ Java와 Spring Boot를 기반으로 서비스를 개발하며,
 
 <br>
 
+## 💡 Skills
+
+| 분야 | 경험 |
+|------|------|
+| **Backend** | Java/Spring Boot 기반 REST API와 도메인 비즈니스 로직 구현 |
+| **Database** | JPA·QueryDSL을 활용한 동적 조회, 커서 페이지네이션, Fetch Join 및 일괄 조회 경험 |
+| **Data Integrity** | MySQL UNIQUE·CHECK 제약, Soft Delete, 트랜잭션을 고려한 데이터 정합성 처리 |
+| **API Integration** | 외부 API 연동 및 응답·장애 유형을 서비스 예외로 변환하는 로직 구현 |
+| **Collaboration** | Git Flow 기반 Issue → Branch → PR → Code Review → Merge 협업 경험 |
+
+<br>
+
+## 📊 GitHub Stats
+
+![GitHub stats](https://github-readme-stats.vercel.app/api?username=chans20&show_icons=true&theme=default)
+
+<br>
+
 ## 🔗 Links
 
 - 📁 GitHub: [github.com/chans20](https://github.com/chans20)
-- ✍️ Blog: (작성 예정)
